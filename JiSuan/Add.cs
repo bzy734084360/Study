@@ -14,6 +14,7 @@ namespace JiSuan
         {
             return this.Num1 + base.Num2;
         }
+
         public Add(int n1, int n2) : base(n1, n2) { }
 
     }
