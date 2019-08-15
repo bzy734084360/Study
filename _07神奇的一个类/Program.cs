@@ -11,6 +11,7 @@ namespace _07神奇的一个类
     {
         static void Main(string[] args)
         {
+
             //string name = "小黑";
             //for (int i = 0; i < 30; i++)
             //{
