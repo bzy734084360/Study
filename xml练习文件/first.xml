@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+	<class clsid="110">
+		<student id="010">
+			<name>Tom</name>
+			<gender>男</gender>
+			<age>23</age>
+		</student>
+		<student id="011">
+			<name>Lily</name>
+			<gender>女</gender>
+			<age>18</age>
+		</student>
+	</class>
+		<class clsid="111">
+		<student id="012">
+			<name>Tom</name>
+			<gender>男</gender>
+			<age>23</age>
+		</student>
+		<student id="013">
+			<name>Lily</name>
+			<gender>女</gender>
+			<age>18</age>
+		</student>
+	</class>
+</school>
