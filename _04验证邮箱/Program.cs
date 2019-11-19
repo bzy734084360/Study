@@ -16,7 +16,7 @@ namespace _04验证邮箱
             //正则表达式验证邮箱案例
             Console.WriteLine("请输入邮箱：");
             string email = Console.ReadLine();
-            string zzEamil = "[0-9a-zA-z_.-]+@[0-9a-zA-z_-]+([.][a-zA-Z]+){1,2}";
+            string zzEamil = "[0-9a-zA-Z_.-]+@[0-9a-zA-z_-]+([.][a-zA-Z]+){1,2}";
             //静态方法
             bool result = Regex.IsMatch(email, zzEamil);
             if (result)
