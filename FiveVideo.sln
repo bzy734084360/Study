@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04XML读取练习", "_04XM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05Xml登录案例", "_05Xml登录案例\_05Xml登录案例.csproj", "{77DABB5F-38DD-40FD-A9D7-E7C8E4AF56E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6大项目", "_6大项目\_6大项目.csproj", "{07C13BD6-023D-498F-A6A5-015F44F8D4FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{77DABB5F-38DD-40FD-A9D7-E7C8E4AF56E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DABB5F-38DD-40FD-A9D7-E7C8E4AF56E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DABB5F-38DD-40FD-A9D7-E7C8E4AF56E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C13BD6-023D-498F-A6A5-015F44F8D4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C13BD6-023D-498F-A6A5-015F44F8D4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C13BD6-023D-498F-A6A5-015F44F8D4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C13BD6-023D-498F-A6A5-015F44F8D4FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
