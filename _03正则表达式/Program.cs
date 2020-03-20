@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace _03正则表达式
@@ -39,6 +40,16 @@ namespace _03正则表达式
             //写法一 ^[1-9][0-9]{14}([0-9]{2}[0-9Xx])?$
             //写法二 ^([1-9][0-9]{14}|[1-9][0-9]{16}[0-9X])$
 
+            //验证身份证
+            if (Regex.IsMatch("231181199412281856777", "^[1-9][0-9]{14}([0-9]{2}[0-9Xx])?$"))
+            {
+                Console.WriteLine("验证成功！");
+            }
+            else
+            {
+                Console.WriteLine("验证失败！");
+            }
+            Console.ReadKey();
             #endregion
         }
     }

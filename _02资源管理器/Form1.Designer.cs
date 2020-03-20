@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.AddTv = new System.Windows.Forms.Button();
             this.txt = new System.Windows.Forms.TextBox();
             this.tv = new System.Windows.Forms.TreeView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.AddTv = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -62,6 +62,40 @@
             this.splitContainer1.SplitterDistance = 194;
             this.splitContainer1.TabIndex = 0;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(490, 390);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.TabIndex = 4;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(504, 417);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "添加子节点";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(490, 257);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.TabIndex = 2;
+            // 
+            // AddTv
+            // 
+            this.AddTv.Location = new System.Drawing.Point(504, 284);
+            this.AddTv.Name = "AddTv";
+            this.AddTv.Size = new System.Drawing.Size(75, 23);
+            this.AddTv.TabIndex = 1;
+            this.AddTv.Text = "加节点";
+            this.AddTv.UseVisualStyleBackColor = true;
+            this.AddTv.Click += new System.EventHandler(this.AddTv_Click);
+            // 
             // txt
             // 
             this.txt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -80,40 +114,6 @@
             this.tv.Size = new System.Drawing.Size(194, 450);
             this.tv.TabIndex = 0;
             this.tv.DoubleClick += new System.EventHandler(this.Tv_DoubleClick);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(490, 257);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
-            this.textBox2.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(504, 417);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "添加子节点";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(490, 390);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
-            this.textBox3.TabIndex = 4;
-            // 
-            // AddTv
-            // 
-            this.AddTv.Location = new System.Drawing.Point(504, 284);
-            this.AddTv.Name = "AddTv";
-            this.AddTv.Size = new System.Drawing.Size(75, 23);
-            this.AddTv.TabIndex = 1;
-            this.AddTv.Text = "加节点";
-            this.AddTv.UseVisualStyleBackColor = true;
-            this.AddTv.Click += new System.EventHandler(this.AddTv_Click);
             // 
             // Form1
             // 
@@ -136,12 +136,12 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.TreeView tv;
-        private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button AddTv;
+        private System.Windows.Forms.TreeView tv;
+        private System.Windows.Forms.TextBox txt;
     }
 }
 
